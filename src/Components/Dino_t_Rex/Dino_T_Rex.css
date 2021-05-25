@@ -1,0 +1,154 @@
+
+.game-container{
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    height: 300px;
+    width: 60%;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+
+/* Jerry */
+.jerry{
+    position: absolute;
+    top: 220px;
+    left: 80px;
+    height: 80px;
+    width: 60px;
+    background-image: url('../../Assets/jerry.png');
+    background-size: cover;
+}
+
+.jump{
+    animation: animate_jerry 1s ease-in-out 0s infinite;
+}
+
+@keyframes animate_jerry {
+    0%{ top: 220px;}
+    50%{ top: 20px;}
+    100%{ top: 220px;}
+}
+
+
+
+/* Tom */
+.tom{
+    position: absolute;
+    bottom: 0;
+    left: 60vw;
+    height: 90px;
+    width: 120px;
+    /* background-image: url('../../Assets/tom.png'); */
+    background-image: url('../../Assets/angryRat2.png');
+    background-size: cover;
+}
+
+.run{
+    animation: animate_tom 1.8s linear 0s infinite;
+}
+
+@keyframes animate_tom {
+    0%{ left: 60vw}
+   
+    100%{ left: 0vw;}
+}
+
+/* Game Over */
+
+.game-over{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.score{
+    position: absolute;
+    top: 1%;
+    left: 45%;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.message-to-rotate-screen{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*=========================================== MOBILE ===========================================*/
+@media (max-width : 1024px){
+    .game-container{
+        position: absolute;
+        top: 50px;
+        right: 30px;
+        height: 300px;
+        width: 90%;
+        border: 2px solid black;
+        overflow: hidden;
+    }
+    
+    
+    /* Jerry */
+    .jerry{
+        position: absolute;
+        top: 220px;
+        left: 80px;
+        height: 80px;
+        width: 60px;
+        background-image: url('../../Assets/jerry.png');
+        background-size: cover;
+    }
+
+    
+    
+    /* Tom */
+    .tom{
+        position: absolute;
+        bottom: 0;
+        left: 80vw;
+        height: 90px;
+        width: 120px;
+        /* background-image: url('../../Assets/tom.png'); */
+        background-image: url('../../Assets/angryRat2.png');
+        background-size: cover;
+    }
+
+
+    @keyframes animate_tom {
+        0%{ left: 80vw}
+       
+        100%{ left: 0vw;}
+    }
+    
+  
+    
+    .score{
+        position: absolute;
+        top: 1%;
+        left: 46%;
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+
+}
