@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tom-and-jerry/static/css/main.b72ea4a8.chunk.css",
+    "main.js": "/tom-and-jerry/static/js/main.521b9516.chunk.js",
+    "main.js.map": "/tom-and-jerry/static/js/main.521b9516.chunk.js.map",
+    "runtime-main.js": "/tom-and-jerry/static/js/runtime-main.98174b2d.js",
+    "runtime-main.js.map": "/tom-and-jerry/static/js/runtime-main.98174b2d.js.map",
+    "static/js/2.fd01e8f6.chunk.js": "/tom-and-jerry/static/js/2.fd01e8f6.chunk.js",
+    "static/js/2.fd01e8f6.chunk.js.map": "/tom-and-jerry/static/js/2.fd01e8f6.chunk.js.map",
+    "index.html": "/tom-and-jerry/index.html",
+    "static/css/main.b72ea4a8.chunk.css.map": "/tom-and-jerry/static/css/main.b72ea4a8.chunk.css.map",
+    "static/js/2.fd01e8f6.chunk.js.LICENSE.txt": "/tom-and-jerry/static/js/2.fd01e8f6.chunk.js.LICENSE.txt",
+    "static/media/Dino_T_Rex.css": "/tom-and-jerry/static/media/jerry.ed40a189.png",
+    "static/media/App.css": "/tom-and-jerry/static/media/bg4.b28dad91.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98174b2d.js",
+    "static/js/2.fd01e8f6.chunk.js",
+    "static/css/main.b72ea4a8.chunk.css",
+    "static/js/main.521b9516.chunk.js"
+  ]
+}
